@@ -13,7 +13,7 @@ public class Vista2Controller {
      */
     @FXML
     void previousPane(ActionEvent event) {
-        VistaNavigator.loadVista(VistaNavigator.VISTA_1);
+        VistaNavigator.loadVista(VistaNavigator.CREATE_PATIENT_VIEW);
     }
 
 }

@@ -9,12 +9,6 @@ import javafx.scene.layout.StackPane;
  */
 public class MainController {
 
-    @FXML
-    private Button button1;
-
-    @FXML
-    private Button button2;
-
     /** Holder of a switchable vista. */
     @FXML
     private StackPane vistaHolder;
@@ -28,14 +22,12 @@ public class MainController {
         vistaHolder.getChildren().setAll(node);
     }
 
-    public void showNextPane(ActionEvent event) {
-        if (event.getSource() == button1) {
-            VistaNavigator.loadVista(VistaNavigator.VISTA_2);
-        }
-        if (event.getSource() == button2) {
-            VistaNavigator.loadVista(VistaNavigator.VISTA_1);
+    public void showCreatePatient() {
+        VistaNavigator.loadVista(VistaNavigator.CREATE_PATIENT_VIEW);
+    }
 
-        }
+    public void showDiagnose() {
+        VistaNavigator.loadVista(VistaNavigator.VISTA_2);
     }
 
 }
