@@ -4,7 +4,7 @@ import javafx.fxml.FXML;
 /**
  * Controller class for the second vista.
  */
-public class Vista2Controller {
+public class CreatePredictionController {
 
     /**
      * Event handler fired when the user requests a previous vista.
@@ -12,7 +12,7 @@ public class Vista2Controller {
      * @param event the event that triggered the handler.
      */
     @FXML
-    void previousPane(ActionEvent event) {
+    void predict(ActionEvent event) {
         VistaNavigator.loadVista(VistaNavigator.CREATE_PATIENT_VIEW);
     }
 

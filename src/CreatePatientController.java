@@ -13,7 +13,7 @@ public class CreatePatientController {
      */
     @FXML
     void nextPane(ActionEvent event) {
-        VistaNavigator.loadVista(VistaNavigator.VISTA_2);
+        VistaNavigator.loadVista(VistaNavigator.CREATE_PREDICTION_VIEW);
     }
 
 }

@@ -27,7 +27,7 @@ public class MainController {
     }
 
     public void showDiagnose() {
-        VistaNavigator.loadVista(VistaNavigator.VISTA_2);
+        VistaNavigator.loadVista(VistaNavigator.CREATE_PREDICTION_VIEW);
     }
 
 }
