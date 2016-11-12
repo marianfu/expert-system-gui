@@ -14,7 +14,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        stage.setTitle("Vista Viewer");
+        stage.setTitle("Sistema Experto Odontológico");
         stage.setScene(createScene(loadMainPane()));
         stage.setWidth(800);
         stage.setHeight(600);
@@ -56,12 +56,6 @@ public class Main extends Application {
         Scene scene = new Scene(
                 mainPane
         );
-
-        /*
-        scene.getStylesheets().setAll(
-                getClass().getResource("/fxml/vista.css").toExternalForm()
-        );
-        */
 
         return scene;
     }

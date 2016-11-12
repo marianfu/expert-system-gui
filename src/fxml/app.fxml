@@ -18,8 +18,8 @@
                   <Font size="14.0" />
                </font>
             </Label>
-            <Hyperlink fx:id="createPatientButton" layoutX="80.0" layoutY="85.0" onAction="#showCreatePatient" text="Alta Paciente" />
-            <Hyperlink fx:id="diagnoseButton" layoutX="80.0" layoutY="116.0" onAction="#showDiagnose" text="Diagnósticos" />
+            <Hyperlink fx:id="createPatientButton" layoutX="80.0" layoutY="85.0" onAction="#showCreatePatientView" text="Alta Paciente" />
+            <Hyperlink fx:id="diagnoseButton" layoutX="80.0" layoutY="116.0" onAction="#showDiagnoseView" text="Diagnósticos" />
          </children></Pane>
    </left>
    <center>

@@ -22,11 +22,14 @@ public class MainController {
         vistaHolder.getChildren().setAll(node);
     }
 
-    public void showCreatePatient() {
+    public void showCreatePatientView() {
         VistaNavigator.loadVista(VistaNavigator.CREATE_PATIENT_VIEW);
     }
 
     public void showDiagnose() {
+        VistaNavigator.loadVista(VistaNavigator.CREATE_PREDICTION_VIEW);
+    }
+    public void showDiagnoseView() {
         VistaNavigator.loadVista(VistaNavigator.CREATE_PREDICTION_VIEW);
     }
 
