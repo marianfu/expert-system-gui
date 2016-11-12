@@ -16,7 +16,7 @@ public class Main extends Application {
 
         stage.setTitle("Sistema Experto Odontológico");
         stage.setScene(createScene(loadMainPane()));
-        stage.setWidth(800);
+        stage.setWidth(1000);
         stage.setHeight(600);
         stage.show();
     }
